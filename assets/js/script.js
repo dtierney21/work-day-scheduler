@@ -1,6 +1,5 @@
 // Get the current hour
 var currentHour = moment().format('H');
-console.log(currentHour);
 
 // Get and set the current day
 var today = moment().format('dddd, MMMM Do');
