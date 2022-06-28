@@ -25,7 +25,7 @@ $('.saveBtn').on('click', function() {
     localStorage.setItem(key, value);
 })
 
-// On page load set any descriptions that have been previously saved
+// On page load set any descriptions that have been previously saved using local storage
 function setSavedValues() {
     $('.description').each(function() {
         if (localStorage.getItem($(this).data('hour')) != null) {
